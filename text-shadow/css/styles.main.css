@@ -1,0 +1,96 @@
+/*
+ * Index CSS
+ *
+ *
+ */
+
+
+
+/* ==========================================================================
+   General CSS
+   ========================================================================== */
+body {
+	cursor: default;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+::selection {
+  background: #0054ff;
+  color: white;
+}
+::-webkit-selection {
+  background: #0054ff;
+  color: white;
+}
+::-khtml-selection {
+  background: #0054ff;
+  color: white;
+}
+::-moz-selection {
+  background: #0054ff;
+  color: white;
+}
+::-wap-selection {
+  background: #0054ff;
+  color: white;
+}
+::-ms-selection {
+  background: #0054ff;
+  color: white;
+}
+::-o-selection {
+  background: #0054ff;
+  color: white;
+}
+.wrapper {
+	display: block;
+	margin: 0 auto;
+	width: 960px;
+}
+.inl {
+	display: inline-block;
+	vertical-align: top;
+	* display: inline;
+	zoom: 1;
+}
+a,
+input,
+button,
+select,
+textarea {
+	border: none;
+	outline: none;
+	background-color: transparent;
+}
+
+body h1 {
+  color: #333333;
+  font-size: 80px;
+  line-height: 71px;
+  margin: 0 auto;
+  padding: 60px 0;
+  text-align: right;
+  width: 600px;
+  position: relative;
+}
+body h1 strong {
+  color: orange;
+  font-weight: normal;
+  font-size: 50px;
+  position: relative;
+  z-index: 10;
+}
+body h1 small {
+  font-size: 15px;
+}
+body h2 {
+  color: orange;
+  font-size: 60px;
+  line-height: 71px;
+  margin: 0 auto;
+  padding: 60px 0;
+  text-align: center;
+  position: relative;
+  font-weight: normal;
+  text-transform: uppercase;
+}

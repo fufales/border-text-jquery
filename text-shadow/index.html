@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta charset="utf-8">
+	<title>Template</title>
+	<!--CSS Codes-->
+	<link rel="stylesheet" href="css/styles.main.css">
+	<link rel="stylesheet" href="css/medias.main.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<!--JS Codes-->
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>-->
+	<!--[if lt IE 9]>
+	<script src="js/old-support/IE9.js"></script>
+	<![endif]-->
+	<script src="js/jquery.tshadow.friends.js"></script>
+</head>
+<body>
+
+<h1>
+	Frames - 3 <br>.<strong>Friends }</strong>
+	<small>Beta v0.1</small>
+</h1>
+
+<h2>
+	Klooid.com
+</h2>
+
+<script type="text/javascript">
+	$('h1').friendtshadowandborder({
+		colorshadow:       'black',
+		shadowx:           '5px',
+		shadowy:           '5px',
+		shadowsize:        '10px',
+		effectsize:        '2px',
+		effectcolor:       '#fff',
+	});
+
+	$('body h1 small').friendtshadowandborder({
+		colorshadow:       'black',
+		shadowx:           '2px',
+		shadowy:           '2px',
+		shadowsize:        '5px',
+		effectsize:        '1px',
+		effectcolor:       '#fff',
+	});
+
+	$('h2').friendtshadowandborder({
+		colorshadow:       'orange',
+		shadowx:           '3px',
+		shadowy:           '3px',
+		shadowsize:        '10px',
+		effectsize:        '1px',
+		effectcolor:       '#fff',
+	});
+</script>
+
+</body>
+</html>
